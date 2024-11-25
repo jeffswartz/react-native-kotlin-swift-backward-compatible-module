@@ -3,6 +3,7 @@ import { TurboModuleRegistry } from 'react-native';
 
 export interface Spec extends TurboModule {
   multiply(a: number, b: number): Promise<number>;
+  initSession(apiKey: string, sessionId: string, token: string): Promise<string>;
 }
 
 export default TurboModuleRegistry.getEnforcing<Spec>(

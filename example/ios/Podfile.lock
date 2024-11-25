@@ -15,6 +15,7 @@ PODS:
     - hermes-engine/Pre-built (= 0.72.6)
   - hermes-engine/Pre-built (0.72.6)
   - libevent (2.1.12)
+  - OTXCFramework (2.28.2)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -316,6 +317,7 @@ PODS:
   - React-logger (0.72.6):
     - glog
   - react-native-kotlin-swift-backward-compatible-module (0.1.0):
+    - OTXCFramework (= 2.28.2)
     - React-Core
   - React-NativeModulesApple (0.72.6):
     - hermes-engine
@@ -478,6 +480,7 @@ SPEC REPOS:
   trunk:
     - fmt
     - libevent
+    - OTXCFramework
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -572,6 +575,7 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 8057e75cfc1437b178ac86c8654b24e7fead7f60
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
+  OTXCFramework: 3eb8099f4fef6515e275ee7b0cd797d993cc4c36
   RCT-Folly: 8dc08ca5a393b48b1c523ab6220dfdcc0fe000ad
   RCTRequired: 28469809442eb4eb5528462705f7d852948c8a74
   RCTTypeSafety: e9c6c409fca2cc584e5b086862d562540cb38d29
@@ -587,7 +591,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 5b6dd84e7461ae0bd999922cafe1fe3f98ced073
   React-jsinspector: 194e32c6aab382d88713ad3dd0025c5f5c4ee072
   React-logger: 39440454dfd719978689203a9d18b94e98de09eb
-  react-native-kotlin-swift-backward-compatible-module: ffaa3ef709b7078d2952386f34cccd2b4acb8245
+  react-native-kotlin-swift-backward-compatible-module: 059b4da6b1cfae5353912c0a9079da56667a86ed
   React-NativeModulesApple: 90508a0d94b0b66bb2ba14bc3bef65a00f5a8efb
   React-perflogger: e3596db7e753f51766bceadc061936ef1472edc3
   React-RCTActionSheet: 17ab132c748b4471012abbcdcf5befe860660485
@@ -608,6 +612,6 @@ SPEC CHECKSUMS:
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603
 
-PODFILE CHECKSUM: ba74c10daa0b8cb98d4041ef75386113bad7cad4
+PODFILE CHECKSUM: c34af93174c992d768d2df63cc4e1ced3506b797
 
 COCOAPODS: 1.16.2

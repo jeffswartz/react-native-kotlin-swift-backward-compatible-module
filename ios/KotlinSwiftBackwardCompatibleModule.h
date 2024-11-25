@@ -5,7 +5,9 @@
 @interface KotlinSwiftBackwardCompatibleModule : NSObject <NativeKotlinSwiftBackwardCompatibleModuleSpec>
 #else
 #import <React/RCTBridgeModule.h>
+#import <OpenTok/OpenTok.h>
 
+// @interface KotlinSwiftBackwardCompatibleModule : NSObject <RCTBridgeModule, OTSessionDelegate>
 @interface KotlinSwiftBackwardCompatibleModule : NSObject <RCTBridgeModule>
 #endif
 

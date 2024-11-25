@@ -7,4 +7,6 @@ KOTLIN_SWIFT_BACKWARD_COMPATIBLE_MODULE_START
 
 ASYNC_FUNCTION(multiply:(double)a b:(double)b)
 
+ASYNC_FUNCTION(initSession:(NSString *)apiKey sessionId:(NSString *)sessionId token:(NSString *)token)
+
 KOTLIN_SWIFT_BACKWARD_COMPATIBLE_MODULE_END

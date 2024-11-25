@@ -8,4 +8,5 @@ abstract class KotlinSwiftBackwardCompatibleModuleSpec internal constructor(cont
   ReactContextBaseJavaModule(context) {
 
   abstract fun multiply(a: Double, b: Double, promise: Promise)
+  abstract fun initSession(apiKey: String, sessionId: String, token: String, promise: Promise)
 }

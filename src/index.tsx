@@ -28,3 +28,15 @@ const KotlinSwiftBackwardCompatibleModule =
 export function multiply(a: number, b: number): Promise<number> {
   return KotlinSwiftBackwardCompatibleModule.multiply(a, b);
 }
+
+export function initSession(
+  apiKey: string,
+  sessionId: string,
+  token: string
+): Promise<string> {
+  return KotlinSwiftBackwardCompatibleModule.initSession(
+    apiKey,
+    sessionId,
+    token
+  );
+}
