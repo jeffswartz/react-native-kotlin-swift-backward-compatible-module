@@ -7,6 +7,7 @@ import { multiply } from 'react-native-kotlin-swift-backward-compatible-module';
 export default function App() {
   const textColor = useColorScheme() === 'dark' ? 'white' : 'black';
   const [result, setResult] = React.useState<number | undefined>();
+  const isFabric: boolean = !!global?.nativeFabricUIManager;
 
   React.useEffect(() => {
     multiply(3, 7).then(setResult);
@@ -20,6 +21,13 @@ export default function App() {
         }}
       >
         Result: {result}
+      </Text>
+      <Text
+        style={{
+          color: textColor,
+        }}
+      >
+        is new architecture enabled: {isFabric.toString()}
       </Text>
     </View>
   );
