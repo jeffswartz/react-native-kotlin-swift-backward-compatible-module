@@ -13,6 +13,7 @@ export default function App() {
   const [initSessionResult, setInitSessionResult] = React.useState<
     string | undefined
   >();
+  // @ts-expect-error
   const isFabric: boolean = !!global?.nativeFabricUIManager;
   const apiKey: string = '472032';
   const sessionId: string =
